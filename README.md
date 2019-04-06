@@ -1,10 +1,37 @@
 # FoodTrackerApp
 A food tracking application created using Flask and deployed in Amazon Lightsail.
 
-This application takes in input from the user for foods eaten in a day and accordingly outputs the total number of calories consumed by the user in a day.
+Following main features of the application:
+1. Can be used to add new food items to the databases.
+2. New dates can be added to the database and then different food items consumend on that day can be added.
+3. Total calorie count consumed for each day shown on the home screen.
+
+## Features
+
+### Home Screen
+
+1. The new date for which food has to be tracked can be added
+2. Can be used to add new food items.
+
+![alt text](https://github.com/shubhamg14/FoodTrackerApp/blob/master/images/food-app-home-1.PNG)
+
+![alt text](https://github.com/shubhamg14/FoodTrackerApp/blob/master/images/food-app-home-2.PNG)
+
+### Add New Food Item
+
+1. Can be navigated through Home Page and can be used to add new food item to the database.
+
+![alt text](https://github.com/shubhamg14/FoodTrackerApp/blob/master/images/food-app-add-food.PNG)
 
 
+### Adding food for new date
 
+1. On Home page, new date can be aded and then food items eaten on that day can be selected
+2. Total calorie count consumed that day would be reflected on the Home screen.
+
+
+![alt text](https://github.com/shubhamg14/FoodTrackerApp/blob/master/images/food-app-date-details-1.PNG)
+![alt text](https://github.com/shubhamg14/FoodTrackerApp/blob/master/images/food-app-date-details-2.PNG)
 
 ## Deploying the Application on Amazon Lightsail
 
