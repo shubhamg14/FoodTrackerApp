@@ -86,9 +86,9 @@ def food():
     db = get_db()
     if request.method == 'POST':
         name = request.form['food-name']
-        protein = request.form['protein']
-        carbohydrates = request.form['carbohydrates']
-        fat = request.form['fat']
+        protein = int(request.form['protein'])
+        carbohydrates = int(request.form['carbohydrates'])
+        fat = int(request.form['fat'])
         calories = (protein * 4) + (carbohydrates * 4) + (fat * 5)
 
         db.execute('insert into food (name, protein, carbohydrates,fat,calories) values (?,?,?,?,?)',\
