@@ -1,5 +1,5 @@
 # FoodTrackerApp
-A food tracking application created using Flask and deployed in Amazon Lightsail.
+A food tracking application created using **_Flask, HTML and deployed in Amazon Lightsail_**.
 
 Following main features of the application:
 1. Can be used to add new food items to the databases.
