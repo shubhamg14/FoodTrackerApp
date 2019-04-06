@@ -35,3 +35,6 @@ This application takes in input from the user for foods eaten in a day and accor
  14. Create a virtual environment "virtualenv env"
  15. Activate virtual environment "source env/bin/activate"
  16. Install Flask and Gunicorn(Application server) "pip install flask gunicorn"
+ 17. Copy code into Amazon Lightsail using Winscp or Clone git repository
+ 18. Update database path to '/home/ubuntu/your-project-folder'
+ 19. Start app using command "gunicorn app:app"
